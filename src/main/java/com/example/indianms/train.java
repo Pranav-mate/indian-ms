@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class train {
     @GetMapping("/train")
     public String getData(){
-        return "train";
+        return "book the train";
     }
 }
